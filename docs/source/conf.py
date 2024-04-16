@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'orbit'
+project = 'orbit-DRL'
 copyright = '2024, Jinseok Kim'
 author = 'Jinseok Kim'
 
@@ -16,7 +16,7 @@ author = 'Jinseok Kim'
 extensions = []
 
 templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = []
 
 
 

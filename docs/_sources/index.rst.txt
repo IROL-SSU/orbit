@@ -1,10 +1,10 @@
-.. orbit documentation master file, created by
-   sphinx-quickstart on Tue Apr 16 13:59:31 2024.
+.. orbit-DRL documentation master file, created by
+   sphinx-quickstart on Tue Apr 16 14:28:40 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to orbit's documentation!
-=================================
+Welcome to orbit-DRL's documentation!
+=====================================
 
 .. toctree::
    :maxdepth: 2
