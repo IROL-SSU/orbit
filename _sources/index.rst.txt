@@ -10,6 +10,8 @@ Welcome to IsaacLab's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   markdown/test.md
+
 
 
 Indices and tables
