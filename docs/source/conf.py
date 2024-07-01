@@ -1,3 +1,14 @@
+import os
+import sys
+sys.path.insert(0, os.path.abspath('.'))
+
+from recommonmark.parser import CommonMarkParser
+
+source_parsers = {
+  '.md': CommonMarkParser,
+}
+
+source_suffix = ['.rst', '.md']
 # Configuration file for the Sphinx documentation builder.
 #
 # For the full list of built-in configuration values, see the documentation:
@@ -13,7 +24,7 @@ author = 'Jinseok Kim'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['sphinx.ext.autodoc']
+extensions = ['sphinx.ext.autodoc','recommonmark']
 
 templates_path = ['_templates']
 exclude_patterns = []
