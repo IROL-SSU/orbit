@@ -12,6 +12,12 @@ Welcome to IsaacLab's documentation!
 
    markdown/test.md
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Installation:
+
+   pip_installation.md
+
 
 
 Indices and tables
